@@ -1,50 +1,100 @@
-# Welcome to your Expo app 👋
+<h1 align="center"> 🥗 Nutrivize - Ai-Powered diet planner </h1>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Nutrivize** is a cross-platform full-stack AI-powered diet planner app built from scratch using **React Native** and **Expo**. The app intelligently generates personalized meal plans, tracks nutrition, and helps users stay on top of their health goals using artificial intelligence.
 
-## Get started
+Whether you're aiming to lose weight, build muscle, or simply eat healthier, Nutrivize adapts to your lifestyle and dietary needs with real-time intelligence.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Tech Stack
 
-2. Start the app
+| Technology    | Description                                                | Badge                                                                                                               |
+| ------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| React Native  | Cross-platform mobile app framework                        | ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB) |
+| Expo          | Rapid development toolkit for React Native                 | ![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge\&logo=expo\&logoColor=white)                   |
+| Convex        | Backend as a service (real-time DB, serverless functions)  | ![Convex](https://img.shields.io/badge/Convex-5A31F4?style=for-the-badge\&logo=Convex\&logoColor=white)             |
+| Firebase Auth | Secure email authentication                                | ![Firebase](https://img.shields.io/badge/Firebase_Auth-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=white)  |
+| AI Engine     | Nutrition & diet intelligence (e.g., OpenAI, Gemini, etc.) | ![AI](https://img.shields.io/badge/AI_Intelligence-8B5CF6?style=for-the-badge\&logo=OpenAI\&logoColor=white)        |
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## ✨ Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* 🔐 **Secure Email Authentication** with Firebase
+* 🧠 **AI-Powered Meal Recommendations** tailored to your goals
+* 🥦 **Personalized Diet Planning** based on user preferences
+* 📊 **Real-time Nutritional Tracking** and calorie suggestions
+* 📱 **Cross-Platform App** with sleek, responsive UI
+* 🌐 **Serverless Backend** with Convex (functions, DB, auth)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
-
-When you're ready, run:
+## 📦 Installation & Setup
 
 ```bash
-npm run reset-project
+# Clone the repository
+$ git clone https://github.com/your-username/nutrivize.git
+
+# Navigate into the directory
+$ cd nutrivize
+
+# Install dependencies
+$ npm install
+
+# Start the development server
+$ npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📁 Project Structure
 
-To learn more about developing your project with Expo, look at the following resources:
+```
+nutrivize/
+├── app/               # React Native screens and navigation
+├── components/        # Reusable UI components
+├── convex/            # Backend logic and Convex functions
+├── utils/             # Helper functions and constants
+├── assets/            # Fonts, icons, images
+├── firebase.js        # Firebase config and auth
+├── App.js             # Main entry point
+└── README.md
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 🤖 AI Integration
 
-Join our community of developers creating universal apps.
+Nutrivize uses advanced AI APIs to:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* Understand user health goals
+* Generate customized daily meal plans
+* Suggest alternative diets and nutrition tips
+
+---
+
+## 📌 Roadmap
+
+* [ ] Add voice-based AI nutrition assistant
+* [ ] Integrate daily water and workout tracking
+* [ ] Enable push notifications for meal reminders
+* [ ] Offline support and caching
+
+---
+
+## 💡 Inspiration
+
+Nutrivize was built to make healthy eating accessible, data-driven, and smart. With AI at its core, it transforms your diet planning into a simple and motivating experience.
+
+---
+
+## 🛡️ License
+
+[MIT](LICENSE)
+
+---
+
+## 📬 Connect
+
+Have questions or suggestions?
+Feel free to reach out or open an issue!
